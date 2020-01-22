@@ -63,10 +63,6 @@
             <artifactId>jakarta.inject-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.netflix.archaius</groupId>
-            <artifactId>archaius-core</artifactId>
-        </dependency>
-        <dependency>
             <groupId>commons-configuration</groupId>
             <artifactId>commons-configuration</artifactId>
         </dependency>
