@@ -90,20 +90,6 @@
       </licenses>
     </dependency>
     <dependency>
-      <groupId>org.hdrhistogram</groupId>
-      <artifactId>HdrHistogram</artifactId>
-      <licenses>
-        <license>
-          <name>BSD 2-Clause "Simplified" License</name>
-          <url>https://opensource.org/licenses/BSD-2-Clause</url>
-        </license>
-        <license>
-          <name>Creative Commons Zero v1.0 Universal</name>
-          <url>http://creativecommons.org/publicdomain/zero/1.0/</url>
-        </license>
-      </licenses>
-    </dependency>
-    <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>wildfly-microprofile-fault-tolerance-smallrye-extension</artifactId>
       <licenses>

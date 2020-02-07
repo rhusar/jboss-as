@@ -62,10 +62,6 @@
             <groupId>jakarta.inject</groupId>
             <artifactId>jakarta.inject-api</artifactId>
         </dependency>
-        <dependency>
-            <groupId>commons-configuration</groupId>
-            <artifactId>commons-configuration</artifactId>
-        </dependency>
         <!-- Subsystem dependencies -->
         <dependency>
             <groupId>${project.groupId}</groupId>
