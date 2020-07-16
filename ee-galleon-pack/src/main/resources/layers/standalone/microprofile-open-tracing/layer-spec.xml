@@ -21,9 +21,10 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<!-- Deprecated. Alias for the 'microprofile-open-tracing' layer -->
-<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="open-tracing">
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="microprofile-open-tracing">
     <dependencies>
-        <layer name="microprofile-open-tracing"/>
+        <layer name="cdi"/>
+        <layer name="microprofile-config"/>
     </dependencies>
+    <feature spec="subsystem.microprofile-opentracing-smallrye"/>
 </layer-spec>
